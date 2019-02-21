@@ -30,7 +30,6 @@ module.exports = {
             ]
         }
     },
-    // 不要写这里会被下面覆盖
     'plugins': {
         iview: {
             pagePath: 'pages',
@@ -64,15 +63,6 @@ if (prod) {
                 'png': {
                     quality: 80
                 }
-            }
-        },
-        'iview': {
-
-            pagePath: 'pages',
-            config: {
-                inject: true,
-                prefix: 'i-',
-                px2: false
             }
         }
     };
